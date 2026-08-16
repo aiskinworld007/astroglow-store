@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment Successful | AstroGlow</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3203405209864075');
+  fbq('track', 'PageView');
+  fbq('track', 'Purchase', {value: 999, currency: 'INR'});
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3203405209864075&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:#090716;
+      color:#fff;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:24px;
+      box-sizing:border-box;
+    }
+    .card{
+      width:min(520px,100%);
+      background:#171128;
+      border:1px solid #332653;
+      border-radius:24px;
+      padding:36px 24px;
+      box-shadow:0 20px 60px rgba(0,0,0,.35);
+    }
+    .check{
+      width:72px;
+      height:72px;
+      margin:0 auto 18px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      font-size:38px;
+      background:#1c8f54;
+    }
+    h1{margin:0 0 12px;font-size:30px}
+    p{margin:8px 0;color:#d8d2e8;line-height:1.5}
+    .amount{
+      margin:18px 0;
+      font-size:24px;
+      font-weight:700;
+      color:#fff;
+    }
+    a{
+      display:inline-block;
+      margin-top:18px;
+      padding:13px 22px;
+      border-radius:999px;
+      text-decoration:none;
+      color:#fff;
+      background:#6d3df5;
+      font-weight:700;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="check">✓</div>
+    <h1>Payment Successful!</h1>
+    <p>Thank you for ordering the AstroGlow Astronaut Galaxy Projector.</p>
+    <div class="amount">₹999</div>
+    <p>Your order has been received successfully.</p>
+    <a href="https://aiskinworld007.github.io/astroglow-store/">Back to AstroGlow</a>
+  </div>
+</body>
+</html>
